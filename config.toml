@@ -1,0 +1,58 @@
+baseURL = "https://jesgarrio.es"
+languageCode = "es-ES"
+title = "Jesús García Ríos"
+theme = "avicenna"
+googleAnalytics = "UA-159639718-1"
+timeout=3000
+
+[params]
+  subtitle= "Software Developer"
+  interests="Python, Django, Docker, Kubernetes"
+  cv_name= "cv_jesus_garcia_rios.pdf"
+
+[[params.affilation]]
+  name = "Naturitas S.L."
+  position = "Backend Developer"
+  contact = "jesgarrio@gmail.com"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/JesusGR4"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://www.linkedin.com/in/jesgarrio/"
+
+
+[[params.introduction.paragraph]]
+  text="""Soy Jesús García, desarrollador backend, con experiencia en Django, Laravel como frameworks; Python y PHP como lenguajes de programación. Soy un amante de las buenas prácticas, de un código limpio y legible y de formar un buen ambiente de equipo. Me encanta montar todos mis entornos en Docker lo más óptimos posibles y tengo conocimientos sobre Kubernetes. Intento fomentar la integración continua, la observabilidad de las aplicaciones y optimización de datos. Me encanta Git e intento siempre usar las mejores prácticas para que nunca se pierda el histórico de mi trabajo. Un gran punto fuerte es que me atrae poder aprender de los demás y poder contribuir a mejorar los desarrollos que realizo.
+   """
+[[params.introduction.paragraph]]
+  text=""" A nivel personal, me encanta el deporte, la nutrición y el entretenimiento. Estoy empezando a dar mis primeros pasos en SEO y en desarrollos de proyectos a nivel personal. Otros de mis grandes intereses es la economía y criptomonedas.
+  """
+
+
+[[params.projects]]
+	[[params.projects.project]]
+		name = "Google Scraper"
+		description = "Es un pequeño scrapper desarrollado en Python que obtiene información de un listado de Google Maps según una información dada, y luego, a través de un sistema de comunicación PUB/SUB de Redis, descargamos la información de los lugares que devuelve la búsqueda previa y la almacenamos en una base de datos MongoDB."
+		code_link = "https://github.com/JesusGR4/google-scrapper"
+		
+
+ [[params.projects.project]]
+		name = "Proyecto en Laravel, Kubernetes y chart de Helm"
+		description  = "Este es un pequeño proyecto muy atractivo que se encarga de montar y desplegar un proyecto Laravel y MySQL en un cluster de Kubernetes. Recomiendo mucho la visualización de este proyecto ya que es exportable, y si mañana necesitas un proyecto base, ya lo tienes :)"
+		code_link = "https://github.com/JesusGR4/laravel-kubernetes-helm"
+
+ [[params.projects.project]]
+		name = "ElasticSearch + Logstash + Kibana"
+		description  = "Este es un pequeño desarrollo que con un simple .sh, puedes desplegar un sistema ELK en cualquier servidor que te apetezca."
+		code_link = "https://github.com/JesusGR4/elk-environment"
+
+[[params.projects.project]]
+		name = "Instapybot"
+		description  = "Este es un pequeño desarrollo a nivel personal para adquirir soltura en Python y Django. Es un proyecto atractivo sin finalizar que se encarga de realizar peticiones a la API a Instagram para poder realizar distintas campañas de marketing según unos objetivos marcados. Usa MongoDB como almacenamiento de datos y Redis para cacheo y registro de las sesiones."
+		code_link = "https://github.com/JesusGR4/instapybot"		
+
