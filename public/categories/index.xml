@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jesús García Ríos</title>
-    <link>https://master.d1dyl4t7xegccu.amplifyapp.com/categories/</link>
+    <link>https://jesgarrio.es/categories/</link>
     <description>Recent content in Categories on Jesús García Ríos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-ES</language>
     
-	<atom:link href="https://master.d1dyl4t7xegccu.amplifyapp.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jesgarrio.es/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
