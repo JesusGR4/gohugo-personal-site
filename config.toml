@@ -55,4 +55,3 @@ timeout=3000
 		name = "Instapybot"
 		description  = "Este es un pequeño desarrollo a nivel personal para adquirir soltura en Python y Django. Es un proyecto atractivo sin finalizar que se encarga de realizar peticiones a la API a Instagram para poder realizar distintas campañas de marketing según unos objetivos marcados. Usa MongoDB como almacenamiento de datos y Redis para cacheo y registro de las sesiones."
 		code_link = "https://github.com/JesusGR4/instapybot"		
-
